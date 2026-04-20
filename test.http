@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/process
+Content-Type: application/json
+
+{
+  "sourceAccountId": "ACC-100",
+  "targetAccountId": "ACC-200",
+  "amount": 25.00,
+  "type": "TRANSFER"
+}
